@@ -12,4 +12,4 @@
 
 3. Using multivariate normal distribution by assuming that their covariance matrices being the same, thus using a [Linear Discriminant Analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis) classifier. For this, I used the [Term Frequency–Inverse Document Frequency features (TF-IDF)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) features and then applied the LDA model using [sklearn package](https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html) implementation.
 
-4. Using multi-class least-square classifier with TF-IDF feature. For this, I used the numpy package implementation of least-squares problem by [one-hot encoding](https://en.wikipedia.org/wiki/One-hot) the classes to perform argmax while predicting the labels.
+4. Using multi-class least-square classifier with TF-IDF feature. For this, I used the [numpy package](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html) implementation of least-squares problem by [one-hot encoding](https://en.wikipedia.org/wiki/One-hot) the classes to perform argmax while predicting the labels.
