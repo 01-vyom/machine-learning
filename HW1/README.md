@@ -2,7 +2,7 @@
  
 - 6 questions on basics of linear regression and regressive (multi-)class classification tasks
 
-- The last question uses the [20-Newsgroup Dataset](http://qwone.com/~jason/20Newsgroups/), where we have to perform classification of article topics using the given matlab compatible dataset. Cleaned the dataset by only taking words which have count greater than 1000 using [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) operations.
+- The last question uses the [20-Newsgroup Dataset](http://qwone.com/~jason/20Newsgroups/), where we have to perform classification of article topics using the given [matlab compatible dataset](http://qwone.com/~jason/20Newsgroups/20news-bydate-matlab.tgz). Download and extract the dataset to work on. Cleaned the dataset by only taking words which have count greater than 1000 using [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) operations.
 
 - Types of method used to solve the problem are described as follows:
 
