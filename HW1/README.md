@@ -1,6 +1,9 @@
 # Homework-1
  
-- 6 questions on basics of linear regression and regressive (multi-)class classification tasks
+- 6 questions on basics of linear regression and regressive (multi-)class classification tasks.
+
+- Helpful Reading: [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) Chapter - 2, 3.5, 4.1-4.3 and [Pattern Recognition and
+Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) Chapter - 2, 3.1, 4.1-4.2
 
 - The last question uses the [20-Newsgroup Dataset](http://qwone.com/~jason/20Newsgroups/), where we have to perform classification of article topics using the given [matlab compatible dataset](http://qwone.com/~jason/20Newsgroups/20news-bydate-matlab.tgz). Download and extract the dataset to work on. Cleaned the dataset by only taking words which have count greater than 1000 using [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) operations.
 
