@@ -1,4 +1,4 @@
-# Homework-1
+# Exam-1
  
 - 6 questions on basics of linear regression, regressive (multi-)class classification tasks, and convex optimization problems.
 
