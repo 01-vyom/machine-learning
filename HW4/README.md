@@ -1,0 +1,11 @@
+# Homework-3
+ 
+- 4 questions on PCA with SVD, Gaussian Mixture Models, and Expectation Maximization
+
+- The 3rd question uses the [20-Newsgroup Dataset](http://qwone.com/~jason/20Newsgroups/), where we have to perform clustering of article topics. We perform this clustering in the following two ways:
+1. [LSI](https://en.wikipedia.org/wiki/Latent_semantic_analysis#Latent_semantic_indexing)/[PCA](https://en.wikipedia.org/wiki/Principal_component_analysis#:~:text=Principal%20component%20analysis%20(PCA)%20is,components%20and%20ignoring%20the%20rest.) via orthogonal iteration - I implemented this algorithm to perform clustering using the  [Term Frequency–Inverse Document Frequency (TF-IDF)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) features by setting the number of components to 2. Then I plotted all the documents on a 2-D plain, using different colors for each cluster using [Matplotlib library](https://matplotlib.org/).
+2. [Gaussian Mixture Model](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) via [Expectation Maximization](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) - I implemented this algorithm using the [sklearn package](https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html) and used 100 PCA features. I then displayed the top 10 words for each topic-cluster.
+
+- The 4th question uses the [20-Newsgroup Dataset](http://qwone.com/~jason/20Newsgroups/), where I have to perform clustering of article topics. I perform this clustering  by performing [latent variable](https://en.wikipedia.org/wiki/Latent_variable) based [multinomial mixture modeling](https://en.wikipedia.org/wiki/Mixture_model#Multivariate_Gaussian_mixture_model) using expectation maximization algorithm. I used the word-count as features from the dataset calculated using [sklearn package](https://scikit-learn.org/0.19/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html). I then displayed the top 10 words for each topic-cluster.
+
+The dataset was imported from [sklearn package](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_20newsgroups.html).
